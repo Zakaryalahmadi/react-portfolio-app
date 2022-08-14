@@ -1,0 +1,60 @@
+#square{
+    width: 30px;
+    height: 30px;
+    background-color: #4e6bff;
+    opacity: 0.7;
+    position: absolute;
+    /* top: -60px;
+    left: -60px;*/
+    z-index: -1; 
+    animation: square 5s linear alternate infinite;
+}
+
+@keyframes square {
+    to {
+      transform: translate(60vw, 40vh); 
+    }
+}
+
+
+
+#circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ff97af;
+    position: absolute;
+    top: 200px;
+    left: -100px;
+    z-index: -1;
+    animation: circle 6s linear alternate infinite;
+}
+
+
+@keyframes circle {
+    to {
+      transform: translate(50vw, -40vh);
+    }
+}
+
+
+
+#rect{
+    width: 30px;
+    height: 60px;
+    background-color: #669966;
+    opacity: 0.5;
+    position: absolute;
+    top: 400px;
+    left: -50px;
+    z-index: -1;
+    animation: rect 7s linear alternate infinite;
+
+  
+}
+
+@keyframes rect {
+    to {
+        transform: translate(50vw, -50vh);
+    }
+} 
